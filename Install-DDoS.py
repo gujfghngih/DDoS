@@ -5,7 +5,7 @@ import os, sys, time
 if os.name == 'posix':
 	c = os.system('which pip'); print ("[+] pip is correctly installed")
 	if c == 256:
-		print("[+] Installing pip installer"; os.system('sudo yum install python-pip')
+		print("[+] Installing pip installer") ; os.system('sudo yum install python-pip')
 	else:
 		pass
 else:
