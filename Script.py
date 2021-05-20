@@ -1,5 +1,4 @@
-import colorama
-from colorama import Fore
+
 import time
 import socket
 import random
@@ -7,7 +6,6 @@ import requests
 import threading
 import sys
 import os
-colorama.init()
 
 os.system("clear")
 print('''\033[95m
